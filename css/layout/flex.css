@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+}
+.left,
+.right
+{
+  flex-basis: 300px;
+  flex-shrink:0;
+  flex-grow:0;
+  background-color: bisque;
+}
+.content{
+  flex: 1;
+}

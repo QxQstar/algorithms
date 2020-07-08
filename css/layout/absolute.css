@@ -1,0 +1,21 @@
+.container{
+  position: relative;
+}
+.right,.left{
+  background-color: bisque;
+  width: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.right{
+  right: 0;
+}
+.left{
+  left: 0;
+}
+
+.content{
+  margin-left: 300px;
+  margin-right: 300px;
+}

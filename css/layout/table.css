@@ -1,0 +1,14 @@
+.container{
+  display: table;
+  width: 100%;
+}
+.right,
+.left,
+.content{
+  display: table-cell;
+}
+.right,
+.left{
+  width: 300px;
+  background-color: bisque;
+}

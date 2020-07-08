@@ -1,0 +1,18 @@
+.container{
+  height: 400px;
+}
+.right{
+  float: right;
+  width: 300px;
+}
+.left{
+  float: left;
+  width: 300px;
+}
+.right,.left{
+  background-color: bisque;
+  height: 100%;
+}
+.content{
+  height: 100%;
+}
