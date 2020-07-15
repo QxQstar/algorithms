@@ -51,9 +51,11 @@ var o4 = new M('o4')
 // 因为 o4.__proto__ === M.prototype, 所以 o4 instanceof M 为 true
 o4 instanceof M // true
 
-// o4.__proto__.__proto__ === Object.prototype, 所以 o4 instanceof Object
+// o4.__proto__.__proto__ === Object.prototype, 所以 o4 instanceof Object 为 true
 o4 instanceof Object // true
 ```
+
+![](./relative.jpg)
 
 ## new 运算符
 
