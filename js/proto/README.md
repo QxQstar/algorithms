@@ -32,7 +32,7 @@ var o4 = Object.create(p)
 
 通过`new`关键字调用一个函数，这个函数被称为构造函数。实例是被构造函数创建的，每一个函数都有一个`prototype`属性(注意：不是构造函数才有`prototype`属性)指向它的原型对象，这个原型对象有一个`constructor`属性又指回函数。构造函数实例化出的实例有一个`__proto__`属性指向构造函数的实例对象。
 
-![](./proto.png)
+![](proto.png)
 
 ## 原型链
 
@@ -55,7 +55,7 @@ o4 instanceof M // true
 o4 instanceof Object // true
 ```
 
-![](./relative.jpg)
+![](relative.jpg)
 
 ## new 运算符
 
