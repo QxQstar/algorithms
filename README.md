@@ -13,3 +13,4 @@
 2. [DOM 事件](js/DOM.md)
 3. [原型链](js/proto/README.md)
 4. [继承](js/inheritance.md)
+5. [通信](communication/README.md)
