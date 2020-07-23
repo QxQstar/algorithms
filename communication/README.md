@@ -8,7 +8,7 @@
 
 ## 前后端通信的方式
 
-Ajax、CORS、WebSocket、JSONP
+Ajax、CORS、WebSocket
 
 ## 如何创建 Ajax
 

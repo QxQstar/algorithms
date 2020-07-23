@@ -2,6 +2,7 @@
 
 1. [计算岛屿数量](js/numIslands.js)
 2. [计算最大岛屿面积](js/maxAreaOfIsland.js)
+3. [快速排序](js/quickSort.js)
 
 # css
 
@@ -14,3 +15,4 @@
 3. [原型链](js/proto/README.md)
 4. [继承](js/inheritance.md)
 5. [通信](communication/README.md)
+6. [安全](safe/README.md)
