@@ -3,6 +3,9 @@
 1. [计算岛屿数量](js/numIslands.js)
 2. [计算最大岛屿面积](js/maxAreaOfIsland.js)
 3. [快速排序](js/quickSort.js)
+4. [选择排序](js/selectionSort.js)
+5. [直接插入排序](js/insertSort.js)
+6. [希尔排序](js/shellSort.js)
 
 # css
 

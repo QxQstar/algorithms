@@ -5,28 +5,42 @@ class QuickSort {
   constructor(arr) {
     this.arr = arr
   }
-  quickSort(startIndex = 0,endIndex = this.arr.length -1){
+
+  /**
+   *  快速排序
+   * @param reverse 是否排序
+   * @param startIndex 排序的起始位置
+   * @param endIndex 排序的终止位置
+   * @returns {QuickSort}
+   */
+  quickSort(reverse = false,startIndex = 0,endIndex = this.arr.length -1){
     if(startIndex >= endIndex) {
       return this
     }
-    const pivotIndex = this.partition(startIndex,endIndex)
+    const pivotIndex = this.partition(reverse,startIndex,endIndex)
 
-    this.quickSort(startIndex,pivotIndex - 1)
-    this.quickSort(pivotIndex + 1,endIndex)
+    this.quickSort(reverse,startIndex,pivotIndex - 1)
+    this.quickSort(reverse,pivotIndex + 1,endIndex)
 
     return this
   }
-  partition(startIndex,endIndex) {
+  partition(reverse,startIndex,endIndex) {
     const p = this.arr[startIndex]
     let left = startIndex,
         right = endIndex
 
+    const isMoveRight = (rVal,p) => {
+      return !reverse && rVal > p || reverse && rVal < p
+    }
+    const isMoveLeft = (lVal,p) => {
+      return !reverse && lVal <= p || reverse && lVal >= p
+    }
+
     while (left !== right) {
-      while (left < right && this.arr[right] > p) {
+      while (left < right && isMoveRight(this.arr[right],p)) {
         right --
       }
-
-      while (left < right && this.arr[left] <= p) {
+      while (left < right && isMoveLeft(this.arr[left],p)) {
         left ++
       }
       if(left < right) {
