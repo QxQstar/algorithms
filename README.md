@@ -6,6 +6,7 @@
 4. [选择排序](js/selectionSort.js)
 5. [直接插入排序](js/insertSort.js)
 6. [希尔排序](js/shellSort.js)
+7. [逆波兰式](js/RPN.js)
 
 # css
 
