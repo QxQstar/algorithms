@@ -9,6 +9,7 @@
 7. [逆波兰式](js/RPN.js)
 8. [动态规划之最大子序和](js/maxSubArray.js)
 9. [动态规划之背包问题](js/package.js)
+10. [数组反转](js/arrayReverse.js)
 
 # css
 
