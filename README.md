@@ -8,6 +8,7 @@
 6. [希尔排序](js/shellSort.js)
 7. [逆波兰式](js/RPN.js)
 8. [动态规划之最大子序和](js/maxSubArray.js)
+9. [动态规划之背包问题](js/package.js)
 
 # css
 
