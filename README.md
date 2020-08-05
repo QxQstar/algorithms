@@ -7,10 +7,12 @@
 5. [直接插入排序](js/insertSort.js)
 6. [希尔排序](js/shellSort.js)
 7. [逆波兰式](js/RPN.js)
+8. [动态规划之最大子序和](js/maxSubArray.js)
 
 # css
 
 1. [布局](css/layout/index.html)
+2. [BFC](css/BFC.md)
 
 # js
 
