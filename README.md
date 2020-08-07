@@ -10,6 +10,10 @@
 8. [动态规划之最大子序和](js/maxSubArray.js)
 9. [动态规划之背包问题](js/package.js)
 10. [数组反转](js/arrayReverse.js)
+11. [数组求交集](js/arrayIntersection.js)
+12. [数组求并集](js/arrayUnion.js)
+13. [数组求差集](js/arrayDifference.js)
+14. [约瑟夫环](js/JosephRing.js)
 
 # css
 
