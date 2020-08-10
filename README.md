@@ -14,6 +14,8 @@
 12. [数组求并集](js/arrayUnion.js)
 13. [数组求差集](js/arrayDifference.js)
 14. [约瑟夫环](js/JosephRing.js)
+15. [合并两个有序排列的数组，并且合并完成之后依然有序](js/mergeArray.js)
+16. [使用栈和递归两种方式深度遍历二叉树](js/depthFirstTraversal.js)
 
 # css
 
