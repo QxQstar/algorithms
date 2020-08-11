@@ -16,6 +16,7 @@
 14. [约瑟夫环](js/JosephRing.js)
 15. [合并两个有序排列的数组，并且合并完成之后依然有序](js/mergeArray.js)
 16. [使用栈和递归两种方式深度遍历二叉树](js/depthFirstTraversal.js)
+17. [求二叉树的高度](js/depthOfBinaryTree.js)
 
 # css
 
